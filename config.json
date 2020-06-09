@@ -1,0 +1,27 @@
+{
+    "base_url": "http://lndb.info",
+    "search": {
+        "page": "/search?text=",
+        "all": "/search/all?term=",
+        "results": ".bodycontent a"
+    },
+    "light_novel": {
+        "page": "/light_novel/",
+        "selectors": {
+            "body": "#lightnovelcontentid",
+            "title": "div.secondarytitle span",
+            "cover": "img.header-image",
+            "info": ".secondary-info table tr",
+            "info_list": "td",
+            "volumes": ".lightnovelcovers .view-covers a.showvolumedetailslink"
+        }
+    },
+    "volume": {
+        "cover": "img",
+        "info": ".secondary-volume-info table tr",
+        "info_list": "td"
+    },
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+    "host": "lndb.info",
+    "cookie": "csrf_cookie_name=3d994a34a980e26c481ad6d1a438c99d; ci_session=i8g2iDOyMnam8hr9e4lb3dkjHSfslv4bg%2FqsaqZqEjDtWY7ooXvPc7kpxWLuJFRJCY80l%2BEC%2F7HZLbow3pAkMUSUSjUyrbkav83E3R5ntnCsLiykbBuc0cW3MbVNNcBCERCDMeOANb7X3zdjuyPqEl4l%2F1y5e08rpVNefkSBoE9yhXnFzpUcN2EzxpyE0xmiN1ApmGrNfjG1EkaeYbKWeDufgGwcu5TMJd5A8k7CAfEdmwIHXU9j45t6qNk31bnro%2FMFCU0rVHfLHVKdZ87jREIDlkchzxwhUPY2TrEzWKXxcsHextjriIFFLHPiXEsk56hiPGNTV%2FCaDTIGbqNTeqFnJsu0IZV7Ac7r8fAzhxAlhsyi0E6LLQ%2BYdkYLQMl3Psh0IEBvPe3yv3O1Nr8RXSDxAPxzAjo4hVFblJ7iaGk%3D097491c5c775fbf71c5eba8f6568f96186c85efb"
+}
