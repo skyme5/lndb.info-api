@@ -1,5 +1,5 @@
 {
-    "base_url": "http://lndb.info",
+    "base_url": "http://lndb.link",
     "search": {
         "page": "/search?text=",
         "all": "/search/all?term=",
